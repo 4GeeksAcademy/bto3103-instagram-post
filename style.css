@@ -1,52 +1,72 @@
 body{
     background-color: black;
-    margin: 0
+    font-size: x-large;
+}
+
+.super-post{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .post{
     background-color: white;
-    height: 500px;
-    width: 400px;
-    align-self: center;
-    text-align: center;
-    margin: auto;
+    height: 750px;
+    width: 600px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  
 }
-
-
 
 .header{
     display: flex;
-    height: 50;
+    height: 10%;
     position: relative;
     justify-content: space-between;
 }
 
 #img-info{
     display: flex;
-    padding-left: 5px;
-    
+    justify-content: center;
+    align-items: center;
 }
 
-#options{
-    justify-content: end;
+#img-html5{
+    display: flex;
+    padding-left: 10px;
+}
+
+#title-text{
     display: block;
-    padding-right: 5px;
+    padding-left: 5px;
 }
 
 .botones{
     display: flex;
     justify-content: space-between;
+    padding-top: 10px;
 }
 
+#options{
+    justify-content: end;
+    display: flex;
+    padding: 5%;
+}
+
+
 #opciones{
-    display: inline;
+    display: flex;
     padding-left: 10px;
+    float: left;
 }
 
 #guardar{
-    display: inline;
     justify-content: end;
-    padding-right: 10px;
+    display: flex;
+padding-right: 20px;
+padding-top: 15px;
 }
 
 .post-body{
@@ -54,13 +74,8 @@ body{
     margin: 10px;
 }
 
-img{
-    height: 50px;
-    width: 50px;
-}
-
 #img-post{
-    height: 250px;
+    height: 450px;
     width: 100%;
 }
 
@@ -69,4 +84,9 @@ img{
     width: 20px;
     align-content: center;
     padding: 5px;
+}
+
+.fa-regular fa-heart{
+    height: 50px;
+    width: ;
 }
