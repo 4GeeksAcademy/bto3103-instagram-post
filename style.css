@@ -17,7 +17,6 @@ body{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-  
 }
 
 .header{
@@ -49,14 +48,14 @@ body{
     padding-top: 10px;
 }
 
-#options{
+.opciones-verticales{
     justify-content: end;
     display: flex;
     padding: 5%;
 }
 
 
-#opciones{
+#opciones-post{
     display: flex;
     padding-left: 10px;
     float: left;
@@ -65,8 +64,8 @@ body{
 #guardar{
     justify-content: end;
     display: flex;
-padding-right: 20px;
-padding-top: 15px;
+    padding-right: 20px;
+    padding-top: 15px;
 }
 
 .post-body{
@@ -88,5 +87,4 @@ padding-top: 15px;
 
 .fa-regular fa-heart{
     height: 50px;
-    width: ;
 }
